@@ -122,12 +122,20 @@ section, article {
   background: #D4D5CD;
 }
 
+.features article{
+  border: 1px solid black;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2% 5%;
+}
+
 
 
 @media screen and (min-width: 45em) {
 .features article{
   float: left;
   width:50%;
+
 }
 
 #header h1 {
