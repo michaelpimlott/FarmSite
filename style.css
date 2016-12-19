@@ -1,0 +1,122 @@
+
+body {
+font-family: 'Roboto Condensed', 'Helvetica Neue', 'helvetica', sans-serif;
+margin:0;
+padding: 0;
+}
+
+.actions {
+  background-color: transparent;
+  border: solid 1px #7F9388;
+  border-radius: 3em;
+  color:#7F9388;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .09em;
+  font-weight: bold;
+  height: 4.75em;
+  line-height: 4.75em;
+  padding: 0 3.75em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+#header {
+  cursor: default;
+  padding: 1.75em 2em;
+}
+
+#header h1{
+  font-family: 'Molle', cursive;
+}
+
+
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1.75em;
+  padding: 0;
+  vertical-align: middle;
+  line-height: 1.7;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a, #header a {
+  border: 0;
+  color: black;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: #6B6E7E;
+}
+
+nav a:active {
+  color: #6B6E7E;
+  font-weight: bold;
+}
+
+#header h1 {
+    font-size: 7.189em;
+    line-height: 1.223em;
+    color: #fff;
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+
+#header{
+  background: #7F9388 url("http://i.imgur.com/LsPesjt.jpg") no-repeat center center;
+  padding: 5% 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+
+@media screen and (min-width: 45em) {
+.features article{
+  float: left;
+  width:50%;
+}
+
+
+}
