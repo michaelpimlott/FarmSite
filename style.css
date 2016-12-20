@@ -122,11 +122,14 @@ section, article {
   background: #D4D5CD;
 }
 
-.features article{
-  border: 1px solid black;
+.features article {
+  /*border: 1px solid black;*/
+  box-shadow: 0 0 .325em .13em rgba(0, 0, 0, .1);
   display: inline-block;
   box-sizing: border-box;
-  padding: 2% 5%;
+  padding: .975em;
+  text-transform: capitalize;
+  box-sizing: border-box;
 }
 
 
