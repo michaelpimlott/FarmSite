@@ -262,6 +262,11 @@ nav ul {
   padding: 0;
 }
 
+#nav h3{
+  font-family:'Molle', cursive;
+  letter-spacing: 0.2em;
+}
+
 nav li {
   display: inline-block;
   margin-left: 1.75em;

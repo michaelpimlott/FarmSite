@@ -1,215 +1,228 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="ie"><![endif]-->
-<!--[if !IE 9]><!--><html><!--<![endif]-->
+<!--[if !IE 9]><!-->
+<html>
+<!--<![endif]-->
 <html>
 
 <head>
   <title>Fake Farm</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Molle:400i|Open+Sans|Roboto+Condensed" rel="stylesheet">
   <script src="https://use.fontawesome.com/c5cd38fe58.js"></script>
   <link rel="stylesheet" href="style.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-
-  <!--navbar-->
-  <section id="navbar" class="wrapper">
-    <div class="inner">
+<body lang="en">
+  <div id="container-nav">
+    <!--navbar-->
+    <section id="nav" class="wrapper">
+      <h3>FF</h3>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle" onclick>Menu</label>
       <nav>
         <ul>
-          <li><a href="#intro">Welcome</a></li>
-          <li><a href="#one">Who we are</a></li>
-          <li><a href="#contianer-specialties">What we do</a></li>
-          <li><a href="#three">Contact us</a></li>
+          <li><a href="#about">Who we are</a></li>
+          <li><a href="#specialties">What we do</a></li>
+          <li><a href="#contact">Contact us</a></li>
         </ul>
       </nav>
-    </div>
-  </section>
-
-  <!--Wrapper-->
-  <div id="wrapper">
-
-    <!--header-->
-    <div class="container-header">
-      <section id="header" class="wrapper">
-        <h1>Fake Farm</h1>
-        <p>We would be pleased as punch if you had a look around</p>
-        <ul class="actions">
-          <li><a href="#one" class="button">Come Inside</a></li>
-        </ul>
-      </section>
-    </div>
-
-    <!--section one-->
-    <section id="about" class="wrapper">
-      <article>
-        <a href="#" class="image"><img src="http://i.imgur.com/W6l4fVr.jpg" alt="Mushrooms" /></a>
-        <div class="content">
-          <div class="inner">
-            <h2>Crew</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <ul class="actions">
-              <li><a href="#" class="button">Learn More</a></li>
-            </ul>
-          </div>
-        </div>
-      </article>
-      <article>
-        <a href="#" class="image"><img src="http://i.imgur.com/7m6YEXM.jpg" alt="Cow" /></a>
-        <div class="content">
-          <div class="inner">
-            <h2>Animals</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <ul class="actions">
-              <li><a href="#" class="button">Learn More</a></li>
-            </ul>
-          </div>
-        </div>
-      </article>
-      <article>
-        <a href="#" class="image"><img src="http://i.imgur.com/yRBz0HH.jpg" alt="Men on Buggy" /></a>
-        <div class="content">
-          <div class="inner">
-            <h2>Community</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <ul class="actions">
-              <li><a href="#" class="button">Learn More</a></li>
-            </ul>
-          </div>
-        </div>
-      </article>
     </section>
-
-    <!--section two-->
-    <div id="contianer-specialties">
-      <section id="specialties" class="wrapper">
-        <h2>What we do</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="features">
-          <div class="box">
-            <article>
-              <span class="icon"><i class="fa fa-bath" aria-hidden="true"></i></span>
-              <h3>One thing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </article>
-          </div>
-          <div class="box">
-          <article>
-            <span class="icon"><i class="fa fa-id-card-o" aria-hidden="true"></i></span>
-            <h3>Something else</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
-        </div>
-          <div class="box">
-          <article>
-            <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
-            <h3>Another thing we do</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
-          <div class="box">
-          <article>
-            <span class="icon"><i class="fa fa-anchor" aria-hidden="true"></i></span>
-            <h3>Look what else</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
-        </div>
-        <div class="box">
-          <article>
-            <span class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></span>
-            <h3>This too</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
-        </div>
-        <div class="box">
-          <article>
-            <span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
-            <h3>One More</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
-        </div>
-        </div>
-        <ul class="actions">
-          <li><a href="#" class="button">Learn more</a></li>
-        </ul>
-      </section>
-    </div>
-    <!--section three-->
-
-      <div id="container-contact">
-    <form id="contact">
-      <fieldset class="wrapper">
-        <legend>Contact</legend>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <ul class="group">
-          <li class="name">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name"/>
-          </li>
-          <li class="email">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email"/>
-          </li>
-          <li class="message">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="5"></textarea>
-          </li>
-        </ul>
-        <input class="send" type="submit" name="submit" value="send"/>
-      </fieldset>
-    </form>
   </div>
-          <section id="info">
-            <ul class="our-info">
-              <li>
-                <h3>Address</h3>
-                <span>54321 Burnside #123<br/>
+
+  <!--header-->
+  <div id="container-header">
+    <header id="header" class="wrapper">
+      <h1>Fake Farm</h1>
+      <p>We would be pleased as punch if you had a look around</p>
+      <ul class="actions">
+        <li><a href="#about" class="button">Come Inside</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <!--section one-->
+  <div id="container-about">
+    <article id="content">
+      <section id="about" class="group">
+        <article class="group wrapper">
+          <figure>
+            <a href="#" class="image"><img src="http://i.imgur.com/W6l4fVr.jpg" alt="Mushrooms" /></a>
+          </figure>
+            <div class="text">
+              <h2>Crew</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">Learn More</a></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <article class="group wrapper">
+          <figure>
+            <a href="#" class="image"><img src="http://i.imgur.com/7m6YEXM.jpg" alt="Cow" /></a>
+          </figure>
+          <div class="text">
+              <h2>Animals</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">Learn More</a></li>
+              </ul>
+            </div>
+        </article>
+        <article class="group wrapper">
+          <figure>
+            <a href="#" class="image"><img src="http://i.imgur.com/yRBz0HH.jpg" alt="Men on Buggy" /></a>
+          </figure>
+          <div class="text">
+              <h2>Community</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">Learn More</a></li>
+              </ul>
+            </div>
+        </article>
+      </section>
+
+      <!--section two-->
+      <div id="contianer-specialties">
+        <section id="specialties" class="wrapper">
+          <h2>What We Do</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="features">
+            <div class="box">
+              <article>
+                <span class="icon"><i class="fa fa-bath" aria-hidden="true"></i></span>
+                <h3>One thing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </article>
+            </div>
+            <div class="box">
+              <article>
+                <span class="icon"><i class="fa fa-id-card-o" aria-hidden="true"></i></span>
+                <h3>Something else</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </article>
+            </div>
+            <div class="box">
+              <article>
+                <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
+                <h3>Another thing we do</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </article>
+              <div class="box">
+                <article>
+                  <span class="icon"><i class="fa fa-anchor" aria-hidden="true"></i></span>
+                  <h3>Look what else</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+              </div>
+              <div class="box">
+                <article>
+                  <span class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></span>
+                  <h3>This too</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+              </div>
+              <div class="box">
+                <article>
+                  <span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                  <h3>One More</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><a href="#" class="button">Learn more</a></li>
+            </ul>
+        </section>
+        </div>
+        <!--section three-->
+
+        <div id="container-contact">
+          <form id="contact">
+            <fieldset class="wrapper">
+              <legend>Contact</legend>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <ul class="group">
+                <li class="name">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" />
+                </li>
+                <li class="email">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </li>
+                <li class="message">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="5"></textarea>
+                </li>
+              </ul>
+              <input class="send" type="submit" name="submit" value="send" />
+            </fieldset>
+          </form>
+        </div>
+        <section id="info">
+          <ul class="our-info">
+            <li>
+              <h3>Address</h3>
+              <span>54321 Burnside #123<br/>
               Portland, OR 97213-6543<br/>
               USA</span>
-              </li>
-              <li>
-                <h3>Email</h3>
-                <a href="#">funfarm@funfarm.com</a>
-              </li>
-              <li>
-                <h3>Phone</h3>
-                <span>(971)555-1212</span>
-              </li>
-              <li>
-                <h3>Social</h3>
-                <ul class="icons">
-                  <li><a href="#" class="icon"><span class="label"><i class="fa fa-twitter" aria-hidden="true"></i></span></a></li>
-                  <li><a href="#" class="icon"><span class="label"><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
-                  <li><a href="#" class="icon"><span class="label"><i class="fa fa-github" aria-hidden="true"></i></span></a></li>
-                  <li><a href="#" class="icon"><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i></span></a></li>
-                  <li><a href="#" class="icon"><span class="label"><i class="fa fa-linkedin" aria-hidden="true"></i></span></a></li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </div>
-    </section>
+            </li>
+            <li>
+              <h3>Email</h3>
+              <a href="#">funfarm@funfarm.com</a>
+            </li>
+            <li>
+              <h3>Phone</h3>
+              <span>(971)555-1212</span>
+            </li>
+            <li>
+              <h3>Social</h3>
+              <ul class="icons">
+                <li><a href="#" class="icon"><span class="label"><i class="fa fa-twitter" aria-hidden="true"></i></span></a></li>
+                <li><a href="#" class="icon"><span class="label"><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
+                <li><a href="#" class="icon"><span class="label"><i class="fa fa-github" aria-hidden="true"></i></span></a></li>
+                <li><a href="#" class="icon"><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i></span></a></li>
+                <li><a href="#" class="icon"><span class="label"><i class="fa fa-linkedin" aria-hidden="true"></i></span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
+      </section>
   </div>
   <!--footer-->
   <div id="container-footer">
-  <footer id="footer" class="wrapper">
+    <footer id="footer" class="wrapper">
       <ul class="menu">
         <li>&copy;2016 All rights reserved.</li>
       </ul>
-  </footer>
-</div>
+    </footer>
+  </div>
   <script src="main.js"></script>
-    </body>
-    </html>
+</body>
+
+</html>
