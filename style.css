@@ -435,10 +435,12 @@ article img {
       float:left;
       width: 50%;
     }
-     .text {
+   .text {
       float: left;
       width:50%;
       padding-top: 2%;
+      display: inline;
+      box-sizing: 
     }
 
     #nav {
