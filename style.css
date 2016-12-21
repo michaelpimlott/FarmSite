@@ -289,6 +289,10 @@ textarea {
     white-space: nowrap;
 }
 
+.actions:hover{
+  background-color: rgba(0,0,0, .1);
+}
+
 ul li a {
     text-decoration: none;
     color: black;
@@ -392,10 +396,19 @@ article img {
   text-align: center;
 }
 
-.icon{
+#specialties .icon {
   font-size: 2.2em;
 }
+@media screen and (max-width: 45em){
 
+  #masthead h1 {
+    font-size: 3.7em;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+
+}
 
 
 @media screen and (min-width: 45em) {
@@ -404,6 +417,14 @@ article img {
         width: 38%;
         margin: 1em;
 
+    }
+
+    #masthead {
+      text-align: center;
+    }
+
+    #masthead .actions{
+      background: RGBA(255, 255, 255, .76)
     }
 
     #nav, #masthead, #content, #footer {
@@ -450,7 +471,7 @@ article img {
     #navbar, #footer {
         margin: 0 5.5%;
     }
-    #header h1 {
+    #masthead h1 {
         margin-top: 10%;
         font-size: 7.189em;
     }
