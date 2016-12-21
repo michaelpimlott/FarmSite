@@ -380,21 +380,44 @@ article img {
 #content figure{
   width: 100%;
   padding: 0;
-  margin: 1em;
+  margin: 1em 1em 1em 1em;
 
 }
+
+#specialties, #specialties article{
+  padding: 1.8em;
+  /*margin: 2%;
+  box-sizing: border-box;
+  display:block;*/
+  text-align: center;
+}
+
+.icon{
+  font-size: 2.2em;
+}
+
 
 
 @media screen and (min-width: 45em) {
     #content figure {
         float: left;
-        width: 36%;
+        width: 38%;
+        margin: 1em;
+
+    }
+
+    #nav, #masthead, #content, #footer {
+        margin: 0 3.3%;
+    }
+
+    #specialties article {
+      float:left;
+      width: 50%;
     }
      .text {
       float: left;
       width:50%;
       padding-top: 2%;
-
     }
 
     #nav {
