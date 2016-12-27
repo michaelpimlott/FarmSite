@@ -327,7 +327,7 @@ html {
     font-size: 1.25em;
 }
 
-#container-header h1 {
+#masthead h1 {
     font-family: 'Molle', cursive;
     font-size: 5.2em;
     line-height: 1.223em;
@@ -389,16 +389,21 @@ article img {
 }
 
 #specialties, #specialties article{
-  padding: 1.8em;
-  /*margin: 2%;
-  box-sizing: border-box;
-  display:block;*/
   text-align: center;
+  margin: 1%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 #specialties .icon {
-  font-size: 2.2em;
+  font-size: 2.1em;
 }
+
+#specialties p {
+  padding: 2%;
+}
+
+
 @media screen and (max-width: 45em){
 
   #masthead h1 {
@@ -416,7 +421,6 @@ article img {
         float: left;
         width: 38%;
         margin: 1em;
-
     }
 
     #masthead {
@@ -424,7 +428,7 @@ article img {
     }
 
     #masthead .actions{
-      background: RGBA(255, 255, 255, .76)
+      background: RGBA(255, 255, 255, .76);
     }
 
     #nav, #masthead, #content, #footer {
@@ -433,14 +437,14 @@ article img {
 
     #specialties article {
       float:left;
-      width: 50%;
+      width: 48%;
     }
    .text {
       float: left;
       width:50%;
       padding-top: 2%;
       display: inline;
-      box-sizing: 
+      box-sizing: border-box;
     }
 
     #nav {
