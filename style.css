@@ -175,7 +175,7 @@ h5, h6 {
     overflow: hidden;
 }
 
-#nav, #footer {
+#nav {
     margin: 0 3.3%;
 }
 
@@ -184,6 +184,14 @@ h5, h6 {
     letter-spacing: 0.2em;
 }
 
+#info {
+  border-left: 1px solid black;
+}
+
+#info .icon{
+  font-size: 1.6em;
+  text-align: left;
+}
 
 /*form-----------------------------------------------*/
 
@@ -215,7 +223,7 @@ label {
 legend, label {
     font-weight: 300;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
 }
 
 input, textarea {
@@ -230,6 +238,10 @@ input, textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+fieldset {
+  border: 0 none;
 }
 
 
@@ -277,11 +289,11 @@ textarea {
     color: #7F9388;
     cursor: pointer;
     display: inline-block;
-    font-size: .09em;
+    font-size: 0.5em;
     font-weight: bold;
     height: 4.75em;
     line-height: 4.75em;
-    padding: 0 3.75em;
+    padding: 0 4.75em;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -349,16 +361,17 @@ html {
     box-sizing: border-box;
 }
 
-#container-footer {
+#footer {
     padding: 32px 0px;
     background-color: #1D9D74;
-    color: #fff;
+    color: black;
     font-weight: 100;
     text-align: center;
 }
 
 footer {
     clear: both;
+    width:100%;
 }
 
 #container-specialties {
@@ -384,23 +397,26 @@ article img {
 #content figure{
   width: 100%;
   padding: 0;
-  margin: 1em 1em 1em 1em;
+  margin: 1em;
 
 }
 
-#specialties, #specialties article{
+#specialties,
+#specialties article {
   text-align: center;
   margin: 1%;
   overflow: hidden;
   box-sizing: border-box;
 }
 
-#specialties .icon {
+#specialties .icon,
+#specialties h2 {
   font-size: 2.1em;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
 }
 
 #specialties p {
-  padding: 2%;
+  padding: 0% 10% 1% 10%;
 }
 
 
@@ -431,7 +447,7 @@ article img {
       background: RGBA(255, 255, 255, .76);
     }
 
-    #nav, #masthead, #content, #footer {
+    #nav, #masthead, #content {
         margin: 0 3.3%;
     }
 
@@ -474,7 +490,7 @@ article img {
     body {
         font-size: 104.692%;
     }
-    #navbar, #footer {
+    #navbar {
         margin: 0 5.5%;
     }
     #masthead h1 {
