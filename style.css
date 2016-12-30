@@ -186,14 +186,22 @@ h5, h6 {
 
 #info {
   border-left: 1px solid black;
+
 }
 
-#info .icon{
+#info .icon {
   font-size: 1.6em;
-  text-align: left;
   color: #34AADC;
   margin-left: -2em;
-  
+}
+
+#info ul li{
+  display: inline;
+  margin: 2em 2em 2em 2em;
+}
+
+#info h3{
+  text-align: left;
 }
 
 /*form-----------------------------------------------*/
@@ -226,7 +234,7 @@ label {
 legend, label {
     font-weight: 300;
     text-transform: uppercase;
-    color: black;
+    color: #34AADC;
 }
 
 input, textarea {
@@ -435,6 +443,10 @@ article img {
     font-size: 3.7em;
     padding-top: 1em;
     text-align: center;
+  }
+
+  #info {
+    text-align: left;
   }
 
 
