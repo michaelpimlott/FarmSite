@@ -520,11 +520,15 @@ article img {
     }
     #contact {
         float: left;
-        max-width: 60%;
+        max-width: 58%;
+        padding-top: 1.5%;
+        margin-right: 2%;
     }
+
     #info {
         float: left;
         max-width: 40%;
+        margin-top: 1%;
     }
     /*form------------------------------*/
     .name, .email {
