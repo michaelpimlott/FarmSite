@@ -191,6 +191,9 @@ h5, h6 {
 #info .icon{
   font-size: 1.6em;
   text-align: left;
+  color: #34AADC;
+  margin-left: -2em;
+  
 }
 
 /*form-----------------------------------------------*/
@@ -261,9 +264,9 @@ textarea {
     font-size: 1em;
     line-height: 1;
     font-weight: 500;
-    color: #DEA025;
+    color: #fff;
     text-decoration: none;
-    background: #834025;
+    background: #34AADC;
     margin: .65em .26em;
     padding: .975em;
     border: 0;
@@ -271,8 +274,14 @@ textarea {
     text-shadow: 0 -1px 1px rgba(0, 0, 0, .65);
 }
 
-.send :hover {
+.send:hover {
     background: #6f6f6f;
+}
+
+#info .icon:hover,
+#info a:hover {
+  color: #6f6f6f;
+  cursor: pointer;
 }
 
 .send :active, .send :focus {
