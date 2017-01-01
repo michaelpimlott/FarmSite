@@ -65,6 +65,7 @@ img {
     -ms-interpolation-mode: bicubic;
 }
 
+
 /*--------------------------------------------*/
 
 img {
@@ -185,23 +186,28 @@ h5, h6 {
 }
 
 #info {
-  border-left: 1px solid black;
-
+    border-left: 1px solid black;
 }
 
 #info .icon {
-  font-size: 1.6em;
-  color: #34AADC;
-  margin-left: -2em;
+    font-size: 1.6em;
+    color: #34AADC;
+    margin-left: -3em;
 }
 
-#info ul li{
-  display: inline;
-  margin: 2em 2em 2em 2em;
+#info ul li {
+    display: inline;
+    margin: 3em 3em 2em 2em;
 }
 
-#info h3{
-  text-align: left;
+#info h3 {
+    text-align: left;
+}
+
+
+
+p{
+  padding: 1%;
 }
 
 /*form-----------------------------------------------*/
@@ -252,7 +258,7 @@ input, textarea {
 }
 
 fieldset {
-  border: 0 none;
+    border: 0 none;
 }
 
 
@@ -286,10 +292,9 @@ textarea {
     background: #6f6f6f;
 }
 
-#info .icon:hover,
-#info a:hover {
-  color: #6f6f6f;
-  cursor: pointer;
+#info .icon:hover, #info a:hover {
+    color: #6f6f6f;
+    cursor: pointer;
 }
 
 .send :active, .send :focus {
@@ -318,8 +323,8 @@ textarea {
     white-space: nowrap;
 }
 
-.actions:hover{
-  background-color: rgba(0,0,0, .1);
+.actions:hover {
+    background-color: rgba(0, 0, 0, .1);
 }
 
 ul li a {
@@ -388,7 +393,7 @@ html {
 
 footer {
     clear: both;
-    width:100%;
+    width: 100%;
 }
 
 #container-specialties {
@@ -403,55 +408,46 @@ article img {
     padding-left: 10%;
 }
 
-#about article{
-  border-bottom: 1px solid black;
+#about article {
+    border-bottom: 1px solid black;
 }
 
-.text{
-  text-align: center;
+.text {
+    text-align: center;
 }
 
-#content figure{
-  width: 100%;
-  padding: 0;
-  margin: 1em;
-
+#content figure {
+    width: 100%;
+    padding: 0;
+    margin: 1em;
 }
 
-#specialties,
-#specialties article {
-  text-align: center;
-  margin: 1%;
-  overflow: hidden;
-  box-sizing: border-box;
+#specialties, #specialties article {
+    text-align: center;
+    margin: 1%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
-#specialties .icon,
-#specialties h2 {
-  font-size: 2.1em;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
+#specialties .icon, #specialties h2 {
+    font-size: 2.1em;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
 }
 
 #specialties p {
-  padding: 0% 10% 1% 10%;
+    padding: 0% 10% 1% 10%;
 }
 
-
-@media screen and (max-width: 45em){
-
-  #masthead h1 {
-    font-size: 3.7em;
-    padding-top: 1em;
-    text-align: center;
-  }
-
-  #info {
-    text-align: left;
-  }
-
-
+@media screen and (max-width: 45em) {
+    #masthead h1 {
+        font-size: 3.7em;
+        padding-top: 1em;
+        text-align: center;
+    }
+    #info {
+        text-align: left;
+    }
 }
-
 
 @media screen and (min-width: 45em) {
     #content figure {
@@ -459,31 +455,26 @@ article img {
         width: 38%;
         margin: 1em;
     }
-
     #masthead {
-      text-align: center;
+        text-align: center;
     }
-
-    #masthead .actions{
-      background: RGBA(255, 255, 255, .76);
+    #masthead .actions {
+        background: RGBA(255, 255, 255, .76);
     }
-
     #nav, #masthead, #content {
         margin: 0 3.3%;
     }
-
     #specialties article {
-      float:left;
-      width: 48%;
+        float: left;
+        width: 48%;
     }
-   .text {
-      float: left;
-      width:50%;
-      padding-top: 2%;
-      display: inline;
-      box-sizing: border-box;
+    .text {
+        float: left;
+        width: 50%;
+        padding-top: 2%;
+        display: inline;
+        box-sizing: border-box;
     }
-
     #nav {
         padding: 0;
     }
@@ -524,7 +515,6 @@ article img {
         padding-top: 1.5%;
         margin-right: 2%;
     }
-
     #info {
         float: left;
         max-width: 40%;
