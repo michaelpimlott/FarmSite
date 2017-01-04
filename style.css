@@ -83,6 +83,7 @@ p {
     font-size: 1.063em;
     line-height: 1.223em;
     margin: .612em 0;
+    padding: 1%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -187,12 +188,18 @@ h5, h6 {
 
 #info {
     border-left: 1px solid black;
+    padding-left: 1%;
 }
 
 #info .icon {
     font-size: 1.6em;
     color: #34AADC;
     margin-left: -3em;
+}
+
+#info .icon:hover, #info a:hover {
+    color: #6f6f6f;
+    cursor: pointer;
 }
 
 #info ul li {
@@ -204,11 +211,6 @@ h5, h6 {
     text-align: left;
 }
 
-
-
-p{
-  padding: 1%;
-}
 
 /*form-----------------------------------------------*/
 
@@ -290,11 +292,6 @@ textarea {
 
 .send:hover {
     background: #6f6f6f;
-}
-
-#info .icon:hover, #info a:hover {
-    color: #6f6f6f;
-    cursor: pointer;
 }
 
 .send :active, .send :focus {
@@ -380,7 +377,6 @@ html {
     box-sizing: border-box;
     padding: .975em;
     text-transform: capitalize;
-    box-sizing: border-box;
 }
 
 #footer {
@@ -404,20 +400,11 @@ article img {
     max-width: 22em;
 }
 
-#info {
-    padding-left: 10%;
-}
-
 #about article {
     border-bottom: 1px solid black;
 }
 
-.text {
-    text-align: center;
-}
-
 #content figure {
-    width: 100%;
     padding: 0;
     margin: 1em;
 }
@@ -438,6 +425,10 @@ article img {
     padding: 0% 10% 1% 10%;
 }
 
+.text {
+    text-align: center;
+}
+
 @media screen and (max-width: 45em) {
     #masthead h1 {
         font-size: 3.7em;
@@ -452,8 +443,8 @@ article img {
 @media screen and (min-width: 45em) {
     #content figure {
         float: left;
-        width: 38%;
         margin: 1em;
+        max-width: 38%;
     }
     #masthead {
         text-align: center;
@@ -470,10 +461,11 @@ article img {
     }
     .text {
         float: left;
-        width: 50%;
-        padding-top: 2%;
-        display: inline;
+        max-width: 58%;
+        padding:2% 2% 2% 10%;
+        display: inline-block;
         box-sizing: border-box;
+        overflow: hidden;
     }
     #nav {
         padding: 0;
@@ -515,9 +507,12 @@ article img {
         padding-top: 1.5%;
         margin-right: 2%;
     }
+    #container-contact {
+        box-sizing: border-box;
+    }
     #info {
         float: left;
-        max-width: 40%;
+        max-width: 30%;
         margin-top: 1%;
     }
     /*form------------------------------*/
