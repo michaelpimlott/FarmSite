@@ -360,7 +360,7 @@ html {
 
 #masthead h1 {
     font-family: 'Molle', cursive;
-    font-size: 5.2em;
+    font-size: 3.7em;
     line-height: 1.223em;
     padding-bottom: 10%;
     margin-top: 0;
@@ -393,7 +393,7 @@ footer {
 }
 
 #container-specialties {
-    padding: 24px 0px;
+    padding: 2em 0em;
 }
 
 article img {
@@ -410,7 +410,10 @@ article img {
 }
 
 #content p {
-  max-width: 44em;
+    max-width: 44em;
+}
+#specialties{
+  padding: 1em 0 2em 0;
 }
 
 #specialties, #specialties article {
@@ -422,7 +425,6 @@ article img {
 
 #specialties .icon, #specialties h2 {
     font-size: 2.1em;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .65);
 }
 
 #specialties p {
@@ -434,41 +436,48 @@ article img {
 }
 
 #content {
-  padding: 0em 0 2em 0;
+    padding: 0em 0 2em 0;
 }
 
-#content article{
-  padding: 1em 0 1em 0;
+#content article {
+    padding: 1em 0 1em 0;
 }
 
-@media (max-width:58em) and (min-width:46px) {
+#masthead .actions {
+    background: RGBA(52, 170, 220, 1.00);
+    font-size: .5em;
+}
+@media screen and (max-width: 44em){
   #content figure {
-  float:none;
-  margin:0 auto;
-  max-width: 26em;
+    padding-left: 1.6%
   }
-  .text {
-  max-width: 86%;
-  padding:2% 2% 3% 15%;
-  display: inline-block;
-  box-sizing: border-box;
-  overflow: hidden;
-  text-align: center;
 }
 
-  figure img {
-    max-width: 100%;
+@media (max-width:58em) and (min-width:30em) {
+  #masthead h1 {
+      font-size: 5.8em;
+      padding-top: 1em;
+      text-align: center;
   }
-}​
+  #info {
+      text-align: left;
+  }
 
-@media screen and (max-width: 45em) {
-    #masthead h1 {
-        font-size: 3.7em;
-        padding-top: 1em;
+    #content figure {
+        float: none;
+        margin: 0 auto;
+        max-width: 22em;
+    }
+    .text {
+        max-width: 86%;
+        padding: 2% 2% 3% 15%;
+        display: inline-block;
+        box-sizing: border-box;
+        overflow: hidden;
         text-align: center;
     }
-    #info {
-        text-align: left;
+    figure img {
+        max-width: 100%;
     }
 }
 
@@ -481,9 +490,7 @@ article img {
     #masthead {
         text-align: center;
     }
-    #masthead .actions {
-        background: RGBA(255, 255, 255, .76);
-    }
+
     #nav, #masthead, #content {
         margin: 0 3.3%;
     }
@@ -494,7 +501,7 @@ article img {
     .text {
         float: left;
         max-width: 58%;
-        padding:2% 2% 2% 10%;
+        padding: 2% 2% 2% 10%;
         display: inline-block;
         box-sizing: border-box;
         overflow: hidden;
