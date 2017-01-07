@@ -409,6 +409,10 @@ article img {
     margin: 1em;
 }
 
+#content p {
+  max-width: 44em;
+}
+
 #specialties, #specialties article {
     text-align: center;
     margin: 1%;
@@ -418,7 +422,7 @@ article img {
 
 #specialties .icon, #specialties h2 {
     font-size: 2.1em;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .65);
 }
 
 #specialties p {
@@ -428,6 +432,34 @@ article img {
 .text {
     text-align: center;
 }
+
+#content {
+  padding: 0em 0 2em 0;
+}
+
+#content article{
+  padding: 1em 0 1em 0;
+}
+
+@media (max-width:58em) and (min-width:46px) {
+  #content figure {
+  float:none;
+  margin:0 auto;
+  max-width: 26em;
+  }
+  .text {
+  max-width: 86%;
+  padding:2% 2% 3% 15%;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+
+  figure img {
+    max-width: 100%;
+  }
+}​
 
 @media screen and (max-width: 45em) {
     #masthead h1 {
@@ -440,7 +472,7 @@ article img {
     }
 }
 
-@media screen and (min-width: 45em) {
+@media screen and (min-width: 58em) {
     #content figure {
         float: left;
         margin: 1em;
@@ -466,6 +498,7 @@ article img {
         display: inline-block;
         box-sizing: border-box;
         overflow: hidden;
+        text-align: center;
     }
     #nav {
         padding: 0;
@@ -537,12 +570,12 @@ article img {
 
 /*old ie fixes---------------------------------------------*/
 
-.ie #portfolio figure {
+.ie #content figure {
     width: 100%;
     box-sizing: border-box;
 }
 
-.ie #portfolio figure {
+.ie #content figure {
     *width: auto;
 }
 
