@@ -364,6 +364,7 @@ html {
     line-height: 1.223em;
     padding-bottom: 10%;
     margin-top: 0;
+    text-align: center;
 }
 
 #contianer-specialties {
@@ -447,17 +448,31 @@ article img {
     background: RGBA(52, 170, 220, 1.00);
     font-size: .5em;
 }
-@media screen and (max-width: 44em){
+
+#masthead .actions:hover {
+    background: RGBA(52, 170, 220, .80);
+}
+@media screen and (max-width: 45em){
   #content figure {
     padding-left: 1.6%
+  }
+
+  #masthead {
+    text-align: center;
   }
 }
 
 @media (max-width:58em) and (min-width:30em) {
   #masthead h1 {
-      font-size: 5.8em;
+      font-size: 4em;
       padding-top: 1em;
       text-align: center;
+  }
+  #masthead{
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 0;
+    /*margin-top: -10em;*/
   }
   #info {
       text-align: left;
